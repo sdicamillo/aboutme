@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Di Camillo</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS propio-->
+    <link href="css/estilos.css" rel="stylesheet">
+    <!-- Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- AOS animated -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" class="mt-56">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+            <!--Logo navbar-->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top" id="logo">
+                sdicamillo
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="bg-img"></div>
+                <div class="text-center hero-txt">
+                    <h1 class="text-white">Santiago Di Camillo.</h1>
+                    <p class="text-white"> Estudiante de Ingeniería en Sistemas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ-->
+    <section id="aboutme">
+        <div class="container d-flex align-items-center" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <h2 class="text-sm-center text-md-start">Sobre mí</h2>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 mb-3">
+                    <img src="img/me.png" class="img-fluid mx-auto d-block" id="me" alt="Foto de perfil">
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-9 px-5">
+                    <p>Hola! Mi nombre es Santiago Di Camillo y soy de Argentina. Soy estudiante de Ingeniería en Sistemas en la Universidad Tecnológica Nacional de La Plata donde actualmente estoy cursando el cuarto año de la carrera. Estoy constantemente aprendiendo sobre el mundo IT, donde especialmente estoy interesado en el desarrollo frontend. Actualmente estoy en búsqueda de mi primera experiencia laboral en el mundo IT.</p>
+                    <div class="d-grid gap-2 col-4 mx-auto py-2">
+                        <a href="pdf/SANTIAGO HORACIO DI CAMILLO CV IT.pdf" download target="_blank">
+                        <button type="button" class="btn btn-dark">Descargar CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills">
+        <div class="container" data-aos="fade-up">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 my-3">
+                    <h2 class="text-sm-center text-md-start">Habilidades</h2>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bxl-html5 bx-lg'></i>
+                    <h5>HTML5</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bxl-css3 bx-lg'></i>
+                    <h5>CSS3</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bxl-javascript bx-lg'></i>
+                    <h5>JavaScript</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bxl-bootstrap bx-lg'></i>
+                    <h5>Bootstrap</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bx-code-alt bx-lg'></i>
+                    <h5>API Rest</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 skill-box">
+                    <div class="skill-box-content">
+                    <i class='bx bxl-github bx-lg'></i>
+                    <h5>GitHub</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact">
+        <div class="container  mb-5" data-aos="fade-up">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 my-3">
+                    <h2 class="text-sm-center text-md-start">Contacto</h2>
+                </div>
+                <div class="col-12 col-lg-4 skill-box">
+                    <div class="skill-box-content">
+                        <i class='bx bxl-gmail bx-lg'></i>
+                        <h5>dicamillosantiago@gmail.com</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 skill-box">
+                    <div class="skill-box-content">
+                        <a href="https://www.linkedin.com/in/santiago-di-camillo-a540a0239" target="_blank">
+                            <i class='bx bxl-linkedin bx-lg'></i>
+                            <h5>Santiago Di Camillo</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 skill-box">
+                    <div class="skill-box-content">
+                        <a href="https://github.com/sdicamillo" target="_blank">
+                            <i class='bx bxl-github bx-lg'></i>
+                            <h5>sdicamillo</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid bg-white text-center">
+            <p>Realizado por Santiago Di Camillo para Argentina Programa 4.0</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- AOS animated -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JS propio-->
+    <script src="js/comportamiento.js"></script>
+</body>
+
+</html>

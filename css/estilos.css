@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/**NAVBAR**/
+
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand{
+    font-family: consolas;
+}
+
+#logo{
+    width: 30px;
+    height: 24px;
+}
+
+/**HERO**/
+
+#home{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.bg-img{
+    background-image: url(../img/hero-img.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+}
+
+.hero-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: consolas;
+}
+
+.hero-txt h1{
+    margin: auto;
+    animation: type 3s steps(20) 1.3s 1 normal both,
+    cursor .4s step-end infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid white;
+    width: max-content;
+}
+/** ANIMACIONES HERO**/
+@keyframes type {
+    0% {width:0ch;}
+    100%{width:20ch;}
+}
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+
+/**SKILLS Y CONTANCT**/
+
+.skill-box{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.skill-box-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-box-content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill-box:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
+    background: rgba(211, 211, 211, 0.5);
+}
+
+.skill-box h5{
+    margin-top: 10px;
+}
+
+.skill-box a{
+    text-decoration: none;
+    color: black;
+}
+
+/**CONTACT**/
+
+footer{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    font-family: consolas;
+}
