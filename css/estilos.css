@@ -8,10 +8,6 @@ body{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.navbar-brand{
-    font-family: consolas;
-}
-
 #logo{
     width: 30px;
     height: 24px;
@@ -40,7 +36,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    font-family: consolas;
 }
 
 .hero-txt h1{
@@ -49,7 +44,6 @@ body{
     cursor .4s step-end infinite alternate;
     overflow: hidden;
     white-space: nowrap;
-    font-family: consolas;
     border-right: 4px solid white;
     width: max-content;
 }
@@ -111,6 +105,8 @@ footer{
     align-items: center;
 }
 
-footer p{
-    font-family: consolas;
+/**CONSOLA FONT**/
+footer p, .hero-txt, .navbar-brand
+{
+    font-family: consolas, 'Inconsolata', monospace;
 }
